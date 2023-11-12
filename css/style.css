@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: cursive, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.main-color {
+  background-color: rgb(255, 181, 101) !important;
+}
+
+.color-text a {
+  color: black;
+}
+
+.banner {
+  height: 50vh;
+  background-color: #febd59;
+}
+
+.banner img{
+  display:block;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  width: 500px;
+  height: 350px;
+}
+
+.produk .card {
+  transition: .3s;
+}
+
+.produk .card:hover {
+  transform: scale(1.1);
+}
+
+.produk .card .card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
