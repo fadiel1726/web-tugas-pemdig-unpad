@@ -43,3 +43,37 @@ body {
   object-fit: cover;
 }
 
+/*footer*/
+footer {
+	background: #101010;
+	padding: 20px 0;
+}
+
+.single-box h3 {
+  font-family: 'Courier New', Courier, monospace;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.single-box h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.socials i {
+  color: #fff;
+	font-size: 18px;
+	margin-right: 15px;
+}
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
