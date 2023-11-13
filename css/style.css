@@ -3,7 +3,7 @@ a {
 }
 
 body {
-  font-family: cursive, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: poppins, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .main-color {
@@ -27,6 +27,22 @@ body {
   margin:auto;
   width: 500px;
   height: 350px;
+}
+
+.promo{
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/img/background.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.down-arow{
+  text-align: center;
+}
+
+.down-arow i{
+  font-size: 60px;
+  color: #fff;
 }
 
 .produk .card {
